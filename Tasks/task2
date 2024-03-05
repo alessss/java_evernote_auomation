@@ -1,0 +1,12 @@
+There is no clear requirement about spaces, commas and other non-alphanumerical symbols in the string, but usually they
+are removed and not considered in verifying string to be a palindrome, so we remove them. To test this method, best
+suits equivalence partitioning test design technique. First we should split inputs by classes. These classes would be:
+- palindrome string of even length consisting of upper and lower case letters (seems logical to assume that we don't care
+about upper and lower letters)
+- palindrome string of odd length
+- non palindrome string of even length
+- non palindrome string of odd length
+- palindrome string containing non alphanumeric characters (eg. "Hello, olleh!)
+- non palindrome string containing non alphanumeric characters (eg. "Hello, world!)
+- string containing of only non alphanumeric characters (results in 0 length and considered as palindrome, because there
+is no requirement for 0 length string)

@@ -1,0 +1,17 @@
+1. SELECT id, name, surname
+   FROM users
+   WHERE country = 'MT'
+
+2. SELECT id, name, surname
+   FROM users
+   WHERE country NOT IN ('DE', 'FR')
+
+3. SELECT id, name, surname
+   FROM users
+   WHERE id in (SELECT id from user_creds)
+
+4. SELECT u.id, u.name, u.surname
+   FROM users as u
+   JOIN users_creds as uc
+   on u.id=uc.id
+   WHERE required_reset_password = 1

@@ -1,0 +1,30 @@
+I got my IP blocked during fulfilling this task, so steps may be inaccurate.
+
+Bug #1
+User receives the same verification code
+1. Open Videoslots.com
+2. Type correct email and phone number and submit data.
+3. Try to login using credentials entered.
+4. On additional info tab click Resend code button
+Actual result: User receives the same code
+Expected: User should receive another code after clicking Resend code button.
+
+This bug is critical, because it affects security. Code should be valid only for certain perio of time.
+
+Bug #2.
+User's phone is not validated
+1. Open Videoslots.com
+2. Select country
+3. Type wrong phone number, and correct email
+4. Activate app through email code
+Result: User's phone is not validated.
+Expected: User's phone should be validated
+
+Since not all countries listed in countries dropdown, it means that users from the countries not in the list shouldn't
+be able to register. I was able to register only using email, but I think that Estoniia is not in the list o countries
+where videoslots operate. Allowing registration for users from such countries, can cause legal problems.
+
+
+
+
+
