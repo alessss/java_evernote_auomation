@@ -1,4 +1,5 @@
-
+Tasks 1-4
+Please sin solutions for tasks 1-4 in [Tasks](https://github.com/alessss/makarevich_videoslots/tree/master/Tasks) folder.
 
 How to run tests:
 1. Make sure that you have correct chromedriver 
